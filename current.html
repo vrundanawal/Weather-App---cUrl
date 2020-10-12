@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AJAX/PHP/CURL/JSON/jQuery example">
+    <title>Weather app Using Ajax/ PHP/CURL/JSON and jquery example</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="libs/css/style.css">
+  
+</head>
+<body>
+    <div class="jumbotron">
+        <h2 class="text-center" >Get Current Weather</h2>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            
+                <h3 class="text-center text-primary">Enter City Name</h3>
+                <span id="error"></span>
+        </div>   
+       
+        <div>
+            <div class="row form-group form-inline" id="rowDiv">
+                <input type="text" name="city" id="city" class="form-control" placeholder="Enter city name">
+                <button type="button" id="submitWeather" class="btn btn-primary">Search City</button>
+            </div>
+
+            <div id="show" ></div>
+        </div>
+        </div>
+
+
+    <!-- jQuery library -->
+    
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <!-- Latest compiled and minified JavaScript -->
+  
+    <script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+    <script type="application/javascript" src="libs/js/search.js" ></script>
+</body>
+</html>
